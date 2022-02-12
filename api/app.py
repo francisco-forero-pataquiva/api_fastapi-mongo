@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Body
 from typing import Optional
-from model.article import Article
-from database.db import (
+from article import Article
+from db import (
     fetch_one_article,
     fetch_all_articles,
     create_article,

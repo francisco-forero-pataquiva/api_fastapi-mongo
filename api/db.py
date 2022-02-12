@@ -1,5 +1,5 @@
 from motor import  motor_asyncio
-from model.article import Article
+from article import Article
 from decouple import config
 
 
@@ -11,7 +11,8 @@ async def fetch_one_article(id: int):
     document = await collection.find_one({"id": id})
     return document
 
-async def fetch_all_articles(_limit: int, _skip: int = 0):
+async def fetch_all_articles(_limit: int, _skip: int):
+    if _skip is None: _skip = 0
     articles = []
     cursor = collection.find({}).limit(_limit).skip(_skip)
     async for document in cursor:
