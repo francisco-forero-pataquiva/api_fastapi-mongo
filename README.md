@@ -30,5 +30,4 @@ python3 -m pip install -r requirements.txt
 
 To start the API, just run the main.py file, and to start the CRON, run cronjob.py.
 
-NOTE: It's important to notice that here I've included a .env file to facilitate the testing of the project, but this wouldn't be recommended in production environments.
 
