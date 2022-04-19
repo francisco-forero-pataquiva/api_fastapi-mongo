@@ -1,6 +1,4 @@
-# Back-end Challenge 🏅 2021 - Space Flight News
-
-This is a challenge by <a href = "https://coodesh.com/">Coodesh</a>
+# Space Flight News API
 
 ## About 
 
