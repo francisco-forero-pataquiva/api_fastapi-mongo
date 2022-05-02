@@ -2,7 +2,7 @@
 
 ## About 
 
-This REST API project was made as a back-end challenge for Coodesh. The API was centered around CRUD operations using data from the <a href = "https://api.spaceflightnewsapi.net/v3/documentation">Space Flight News API</a> stored in a MongoDB database. The database was populated using a daily CRON that scrapped the available data and kept it up to date.
+This REST API project was centered around CRUD operations using data from the <a href = "https://api.spaceflightnewsapi.net/v3/documentation">Space Flight News API</a> stored in a MongoDB database. The database was populated using a daily CRON that scrapped the available data and kept it up to date.
 
 ### Stack 
 
